@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Services</title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <style>
+     .hidden {
+      display: none;
+     }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container mx-auto p-4">
+        <section class="mb-8">
+         <h2 class="text-xl font-bold mb-4">
+          Filter Providers
+         </h2>
+         <div class="flex space-x-4">
+          <div class="flex-1">
+           <label class="block text-sm font-medium text-gray-700" for="distance">
+            Distance
+           </label>
+           <select class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md" id="distance">
+            <option value="any">
+             Any
+            </option>
+            <option value="5">
+             Within 5 Km
+            </option>
+            <option value="10">
+             Within 10 Km
+            </option>
+            <option value="20">
+             Within 20 Km
+            </option>
+           </select>
+          </div>
+          <div class="flex-1">
+           <label class="block text-sm font-medium text-gray-700" for="price">
+            Price
+           </label>
+           <select class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md" id="price">
+            <option value="any">
+             Any
+            </option>
+            <option value="50">
+             Under 
+             ₹50
+            </option>
+            <option value="100">
+             
+₹50 - 
+₹100
+            </option>
+            <option value="200">
+             
+₹100 - 
+₹200
+            </option>
+           </select>
+          </div>
+         </div>
+        </section>
+        <section>
+         <h2 class="text-xl font-bold mb-4">
+          Providers List
+         </h2>
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="providers-list">
+          <div class="bg-white p-4 rounded-lg shadow-md provider-card" data-distance="5" data-price="75">
+           <img alt="Image of Provider 1's office building with a futuristic design" class="w-full h-48 object-cover rounded-t-lg" height="200" src="./images/AlbedoBase_XL_Create_an_image_of_a_modern_home_setting_where_a_0 (1).jpg" width="300"/>
+           <div class="p-4">
+            <h3 class="text-lg font-bold">
+                Crafted Comforts
+            </h3>
+            <p class="text-gray-600">
+             Distance: 5 Km
+            </p>
+            <p class="text-gray-600">
+             Price: 
+             ₹75
+            </p>
+            <div class="flex items-center mt-2">
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star-half-alt text-yellow-500">
+             </i>
+             <span class="ml-2 text-gray-600">
+              (4.5)
+             </span>
+            </div>
+            <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded" onclick="openBookingForm('Provider 1')">
+             Book Now
+            </button>
+           </div>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md provider-card" data-distance="10" data-price="120">
+           <img alt="Image of Provider 2's office building with a futuristic design" class="w-full h-48 object-cover rounded-t-lg" height="200" src="./images/AlbedoBase_XL_Create_an_image_of_a_modern_home_setting_where_a_0.jpg" width="300"/>
+           <div class="p-4">
+            <h3 class="text-lg font-bold">
+                Fine Finish Studio
+            </h3>
+            <p class="text-gray-600">
+             Distance: 10 Km
+            </p>
+            <p class="text-gray-600">
+             Price: 
+             ₹120
+            </p>
+            <div class="flex items-center mt-2">
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <span class="ml-2 text-gray-600">
+              (5.0)
+             </span>
+            </div>
+            <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded" onclick="openBookingForm('Provider 2')">
+             Book Now
+            </button>
+           </div>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md provider-card" data-distance="15" data-price="90">
+           <img alt="Image of Provider 3's office building with a futuristic design" class="w-full h-48 object-cover rounded-t-lg" height="200" src="./images/AlbedoBase_XL_Create_an_image_of_a_modern_home_setting_where_a_1 (1).jpg" width="300"/>
+           <div class="p-4">
+            <h3 class="text-lg font-bold">
+                Masterpiece Furniture Co.
+            </h3>
+            <p class="text-gray-600">
+             Distance: 15 Km
+            </p>
+            <p class="text-gray-600">
+             Price: 
+             ₹90
+            </p>
+            <div class="flex items-center mt-2">
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star-half-alt text-yellow-500">
+             </i>
+             <span class="ml-2 text-gray-600">
+              (4.5)
+             </span>
+            </div>
+            <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded" onclick="openBookingForm('Provider 3')">
+             Book Now
+            </button>
+           </div>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md provider-card" data-distance="20" data-price="150">
+           <img alt="Image of Provider 4's office building with a futuristic design" class="w-full h-48 object-cover rounded-t-lg" height="200" src="./images/AlbedoBase_XL_Create_an_image_of_a_modern_home_setting_where_a_1.jpg" width="300"/>
+           <div class="p-4">
+            <h3 class="text-lg font-bold">
+                Artisan Touch Furnishings
+            </h3>
+            <p class="text-gray-600">
+             Distance: 20 Km
+            </p>
+            <p class="text-gray-600">
+             Price: 
+             ₹150
+            </p>
+            <div class="flex items-center mt-2">
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <span class="ml-2 text-gray-600">
+              (5.0)
+             </span>
+            </div>
+            <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded" onclick="openBookingForm('Provider 4')">
+             Book Now
+            </button>
+           </div>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md provider-card" data-distance="25" data-price="200">
+           <img alt="Image of Provider 5's office building with a futuristic design" class="w-full h-48 object-cover rounded-t-lg" height="200" src="./images/AlbedoBase_XL_Create_an_image_of_a_modern_home_setting_where_a_3.jpg" width="300"/>
+           <div class="p-4">
+            <h3 class="text-lg font-bold">
+                Polished Elegance
+            </h3>
+            <p class="text-gray-600">
+             Distance: 25 Km
+            </p>
+            <p class="text-gray-600">
+             Price: 
+             ₹200
+            </p>
+            <div class="flex items-center mt-2">
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star-half-alt text-yellow-500">
+             </i>
+             <span class="ml-2 text-gray-600">
+              (4.5)
+             </span>
+            </div>
+            <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded" onclick="openBookingForm('Provider 5')">
+             Book Now
+            </button>
+           </div>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md provider-card" data-distance="30" data-price="250">
+           <img alt="Image of Provider 6's office building with a futuristic design" class="w-full h-48 object-cover rounded-t-lg" height="200" src="./images/renovation-old-upholstery-woman-hands-260nw-1863362119.webp" width="300"/>
+           <div class="p-4">
+            <h3 class="text-lg font-bold">
+                Custom WoodWorks
+            </h3>
+            <p class="text-gray-600">
+             Distance: 30 Km
+            </p>
+            <p class="text-gray-600">
+             Price: 
+             ₹250
+            </p>
+            <div class="flex items-center mt-2">
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <i class="fas fa-star text-yellow-500">
+             </i>
+             <span class="ml-2 text-gray-600">
+              (5.0)
+             </span>
+            </div>
+            <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded" onclick="openBookingForm('Provider 6')">
+             Book Now
+            </button>
+           </div>
+          </div>
+         </div>
+        </section>
+       </main>
+       <div class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center hidden" id="booking-form">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+         <h2 class="text-xl font-bold mb-4">
+          Book Service
+         </h2>
+         <form>
+          <div class="mb-4">
+           <label class="block text-sm font-medium text-gray-700" for="provider-name">
+            Provider Name
+           </label>
+           <input class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md" id="provider-name" readonly type="text"/>
+          </div>
+          <div class="mb-4">
+           <label class="block text-sm font-medium text-gray-700" for="customer-name">
+            Your Name
+           </label>
+           <input class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md" id="customer-name" type="text"/>
+          </div>
+          <div class="mb-4">
+           <label class="block text-sm font-medium text-gray-700" for="customer-email">
+            Your Email
+           </label>
+           <input class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md" id="customer-email" type="email"/>
+          </div>
+          <div class="mb-4">
+           <label class="block text-sm font-medium text-gray-700" for="customer-phone">
+            Your Phone
+           </label>
+           <input class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md" id="customer-phone" type="tel"/>
+          </div>
+          <div class="flex justify-end">
+           <button class="bg-gray-500 text-white px-4 py-2 rounded mr-2" onclick="closeBookingForm()" type="button">
+            Cancel
+           </button>
+           <button class="bg-blue-600 text-white px-4 py-2 rounded" type="submit">
+            Book Now
+           </button>
+          </div>
+         </form>
+        </div>
+       </div>
+       
+       <script>
+    function AlertOption(providerName) {
+            alert(`You have booked ${providerName}'s service!`);
+    }
+
+        function openBookingForm(providerName) {
+         document.getElementById('provider-name').value = providerName;
+         document.getElementById('booking-form').classList.remove('hidden');
+        }
+        function closeBookingForm() {
+         document.getElementById('booking-form').classList.add('hidden');
+        }
+        document.getElementById('distance').addEventListener('change', filterProviders);
+        document.getElementById('price').addEventListener('change', filterProviders);
+        function filterProviders() {
+         const distance = document.getElementById('distance').value;
+         const price = document.getElementById('price').value;
+         
+
+
+
+
+const providers = document.querySelectorAll('.provider-card');
+         providers.forEach(provider => {
+          const providerDistance = provider.getAttribute('data-distance');
+          const providerPrice = provider.getAttribute('data-price');
+          let show = true;
+          if (distance !== 'any' && parseInt(providerDistance) > parseInt(distance)) {
+           show = false;
+          }
+          if (price !== 'any' && parseInt(providerPrice) > parseInt(price)) {
+           show = false;
+          }
+          if (show) {
+           provider.classList.remove('hidden');
+          } else {
+           provider.classList.add('hidden');
+          }
+         });
+        }
+       </script>
+</body>
+</html>
