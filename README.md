@@ -83,4 +83,12 @@ Navigate to the project directory:
 cd neighborhood-helper
 ```
 
+**ScreenShort:-**
+<div style="display: flex; justify-content: space-between;">
+  <img src="![homePage](https://github.com/user-attachments/assets/1f913a08-d319-4064-a561-0cb0c2cff32b)
+" width="45%" />
+  <img src="![127 0 0 1_5500_client_landing%20page_index html](https://github.com/user-attachments/assets/03e03616-de4e-4585-8a4d-2bb22e553274)
+" width="45%" />
+</div>
+
 
