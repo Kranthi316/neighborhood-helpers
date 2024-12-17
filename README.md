@@ -92,22 +92,19 @@ cd neighborhood-helper
 ## Gallery
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px;">
-  <img src="https://github.com/user-attachments/assets/1f913a08-d319-4064-a561-0cb0c2cff32b" alt="Image 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-  <img src="https://github.com/user-attachments/assets/03e03616-de4e-4585-8a4d-2bb22e553274" alt="Image 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
-  <!-- Add more images as needed -->
+  <img src="https://github.com/user-attachments/assets/0a36ba0c-4a81-4dc3-8ee0-9d630f1883d6" alt="Image 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/e0487347-f9af-4425-93b0-ffe1c137cda2" alt="Image 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/2b850ef5-8faf-497f-b8ad-294781ad1d16" alt="Image 3" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/f7f71c68-3a20-440d-9572-52f1e9ce26a2" alt="Image 4" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/00569763-6875-41d7-807f-ccc09e320b7e" alt="Image 5" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/85407743-eaea-4fe6-b782-3da70d429525" alt="Image 6" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/61573f75-72db-4880-985a-619e1dd9814d" alt="Image 7" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/24e1bf08-ae48-4044-a605-727bf6ecee81" alt="Image 8" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/a7670f17-09d2-4e73-8ad0-8035a492e231" alt="Image 9" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/adb74b5f-f531-45b4-bd1f-c8151beb63a5" alt="Image 10" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
 </div>
-![127 0 0 1_5500_client_landing%20page_index html](https://github.com/user-attachments/assets/84bba9d6-8f79-4714-b865-0343a8649e27)
-![homePage](https://github.com/user-attachments/assets/b4ef95cd-b7d3-4a7e-8dca-e9a50dc46ff9)
-![127 0 0 1_5501_login html](https://github.com/user-attachments/assets/0a36ba0c-4a81-4dc3-8ee0-9d630f1883d6)
-![127 0 0 1_5501_login html (1)](https://github.com/user-attachments/assets/e0487347-f9af-4425-93b0-ffe1c137cda2)
-![127 0 0 1_5501_Plumbers_index html_x=296 y=96](https://github.com/user-attachments/assets/2b850ef5-8faf-497f-b8ad-294781ad1d16)
-![127 0 0 1_5501_Borrowing%20and%20Lending%20Appliances_index html_x=107 y=37](https://github.com/user-attachments/assets/f7f71c68-3a20-440d-9572-52f1e9ce26a2)
-![127 0 0 1_5501_petcare_index html_x=64 y=41](https://github.com/user-attachments/assets/00569763-6875-41d7-807f-ccc09e320b7e)
-![127 0 0 1_5501_parcel_index html_x=86 y=39](https://github.com/user-attachments/assets/85407743-eaea-4fe6-b782-3da70d429525)
-![127 0 0 1_5501_water_index html_x=84 y=63](https://github.com/user-attachments/assets/61573f75-72db-4880-985a-619e1dd9814d)
-![127 0 0 1_5501_Moving%20and%20Storage%20Assistance_index html_x=93 y=41](https://github.com/user-attachments/assets/24e1bf08-ae48-4044-a605-727bf6ecee81)
-![booking](https://github.com/user-attachments/assets/a7670f17-09d2-4e73-8ad0-8035a492e231)
-![alertBook](https://github.com/user-attachments/assets/adb74b5f-f531-45b4-bd1f-c8151beb63a5)
+
+
 
 
 
