@@ -84,11 +84,6 @@ cd neighborhood-helper
 ```
 
 **ScreenShort:-**
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/1f913a08-d319-4064-a561-0cb0c2cff32b" width="45%" />
-  <img src="https://github.com/user-attachments/assets/03e03616-de4e-4585-8a4d-2bb22e553274" width="45%" />
-</div>
-```
 ![127 0 0 1_5501_login html](https://github.com/user-attachments/assets/0a36ba0c-4a81-4dc3-8ee0-9d630f1883d6)
 ![127 0 0 1_5501_login html (1)](https://github.com/user-attachments/assets/e0487347-f9af-4425-93b0-ffe1c137cda2)
 
