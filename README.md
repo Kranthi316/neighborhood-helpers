@@ -84,6 +84,18 @@ cd neighborhood-helper
 ```
 
 **ScreenShort:-**
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/1f913a08-d319-4064-a561-0cb0c2cff32b" width="45%" />
+  <img src="https://github.com/user-attachments/assets/03e03616-de4e-4585-8a4d-2bb22e553274" width="45%" />
+</div>
+
+## Gallery
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px;">
+  <img src="https://github.com/user-attachments/assets/1f913a08-d319-4064-a561-0cb0c2cff32b" alt="Image 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/user-attachments/assets/03e03616-de4e-4585-8a4d-2bb22e553274" alt="Image 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+  <!-- Add more images as needed -->
+</div>
 ![127 0 0 1_5500_client_landing%20page_index html](https://github.com/user-attachments/assets/84bba9d6-8f79-4714-b865-0343a8649e27)
 ![homePage](https://github.com/user-attachments/assets/b4ef95cd-b7d3-4a7e-8dca-e9a50dc46ff9)
 ![127 0 0 1_5501_login html](https://github.com/user-attachments/assets/0a36ba0c-4a81-4dc3-8ee0-9d630f1883d6)
